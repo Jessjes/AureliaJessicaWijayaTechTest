@@ -4,6 +4,8 @@ This is a full stack web application that allows users to perform various tasks.
 [![Spring Boot][SpringBoot-Badge]][SpringBoot-url]
 [![React][React-badge]][React-url]
 [![PostgreSQL][PostgreSQL-badge]][PostgreSQL-url]
+[![Intellij][Intellij-badge]][Intellij-url]
+[![PostgreSQL][VSCode-badge]][VSCode-url]
 
 
 ## Getting Started
@@ -52,3 +54,7 @@ npm run dev
 [React-url]: https://react.dev/
 [PostgreSQL-badge]: https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
+[Intellij-badge]: https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=for-the-badge&logo=IntelliJ-IDEA&logoColor=white
+[Intellij-url]: https://www.jetbrains.com/idea/
+[VSCode-badge]: https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white
+[VSCode-url]: https://code.visualstudio.com/
