@@ -13,7 +13,7 @@ Before running this application, you need to have the following installed on you
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk20-windows) - Version 11 or later
 - [PostgreSQL](https://www.postgresql.org/download/) - Version 10 or later
 - [Node.js](https://nodejs.org/en) - version 12.2.0
-- Maven - version 3.5+
+- [Maven](https://maven.apache.org/) - version 3.5+
 - Tomcat or any servlet 5.0+ compatible container
 
 **Installation**
