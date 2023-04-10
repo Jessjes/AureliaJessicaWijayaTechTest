@@ -21,20 +21,15 @@ Before running this application, you need to have the following installed on you
 To get started with this application, follow these steps:
   - Clone the repository: 
 ```
-git clone https://github.com/your-username/your-repo.git
-```
-  - Navigate to the project directory (Follow the directory after the clone from GitHub): 
-```
-cd Library
-```
-  - Install the server dependencies: 
-```
-./mvnw clean install
+https://github.com/Jessjes/AureliaJessicaWijayaTechTest.git
 ```
 
 **Starting**
 ---
-  - Start the server: 
+  - Start the server (Follow the directory after the clone from GitHub): 
+```
+cd Library
+```
 ```
 ./mvnw spring-boot:run
 ```
