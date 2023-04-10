@@ -1,0 +1,16 @@
+com\example\Library\controller\BooksControllerTest.class
+com\example\Library\controller\AuthorControllerTest.class
+com\example\Library\controller\PeopleControllerTest.class
+com\example\Library\service\AuthorServiceTest.class
+com\example\Library\service\PeopleServiceTest.class
+com\example\Library\service\BookServiceTest.class
+com\example\Library\repository\BookRepositoryTest.class
+com\example\Library\service\AuthorBooksServiceTest.class
+com\example\Library\controller\BookRentsControllerTest.class
+com\example\Library\repository\BookRentsRepositoryTest.class
+com\example\Library\repository\AuthorBooksRepositoryTest.class
+com\example\Library\service\BookRentsServiceTest.class
+com\example\Library\repository\AuthorRepositoryTest.class
+com\example\Library\controller\AuthorBooksControllerTest.class
+com\example\Library\LibraryApplicationTests.class
+com\example\Library\repository\PeopleRepositoryTest.class
