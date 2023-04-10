@@ -23,15 +23,19 @@ To get started with this application, follow these steps:
 ```
 https://github.com/Jessjes/AureliaJessicaWijayaTechTest.git
 ```
+  - Install all the dependencies of the React file: 
+```
+npm install
+```
 
 **Starting**
 ---
   - Start the server (Follow the directory after the clone from GitHub): 
 ```
-cd Library
+cd Library/target
 ```
 ```
-./mvnw spring-boot:run
+java -jar Library-0.0.1-SNAPSHOT.jar
 ```
   - Start the React File (Follow the directory of the clone): 
 ```
