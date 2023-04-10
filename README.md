@@ -1,26 +1,20 @@
-# AureliaJessicaWijayaTechTest
-This is the repository that contains the application which Aurelia Jessica Wijaya has created for the Toppan's Tech Test
-
 # Full Stack Application 
-![NodeJS](https://badges.aleen42.com/src/node.svg)
-![JavaScript](https://badges.aleen42.com/src/javascript.svg)
-![React](https://badges.aleen42.com/src/react.svg)
-![Java](https://badges.aleen42.com/src/java.svg)
-> with Spring Boot, React, and PostgreSQL
+This is a full stack web application that allows users to perform various tasks. It was built using the following technologies:  
+  
+[![Spring Boot][SpringBoot-Badge]][SpringBoot-url]
+[![React][React-badge]][React-url]
+[![PostgreSQL][PostgreSQL-badge]][PostgreSQL-url]
 
-This is a full stack web application that allows users to perform various tasks. It was built using the following technologies:
-
-- [Spring Boot](https://spring.io/) - A popular Java framework for building web applications
-- [React](https://react.dev/) - A JavaScript library for building user interfaces
-- [PostgreSQL](https://www.postgresql.org/) - A powerful open-source relational database management system
 
 ## Getting Started
 Prerequisites
 Before running this application, you need to have the following installed on your machine:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#jdk20-windows) - Version 11 or later
-- [Node.js](https://nodejs.org/en/download) - Version 14 or later
 - [PostgreSQL](https://www.postgresql.org/download/) - Version 10 or later
+- [Node.js](https://nodejs.org/en) - version 12.2.0
+- Maven - version 3.5+
+- Tomcat or any servlet 5.0+ compatible container
 
 **Installation**
 ---
@@ -29,17 +23,13 @@ To get started with this application, follow these steps:
 ```
 git clone https://github.com/your-username/your-repo.git
 ```
-  - Navigate to the project directory: 
+  - Navigate to the project directory (Follow the directory after the clone from GitHub): 
 ```
-cd your-repo
+cd Library
 ```
   - Install the server dependencies: 
 ```
 ./mvnw clean install
-```
-  - Install the client dependencies: 
-```
-cd client && npm install
 ```
 
 **Starting**
@@ -48,7 +38,18 @@ cd client && npm install
 ```
 ./mvnw spring-boot:run
 ```
-  - Start the client: 
+  - Start the React File (Follow the directory of the clone): 
 ```
-cd client && npm start
+cd library_frontend
 ```
+```
+npm run dev
+```
+
+<!-- URLS -->
+[SpringBoot-badge]: https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=Spring-Boot&logoColor=white
+[SpringBoot-url]: https://spring.io/
+[React-badge]: https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black
+[React-url]: https://react.dev/
+[PostgreSQL-badge]: https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
